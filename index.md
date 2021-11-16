@@ -1,6 +1,10 @@
 ## Causal research in Data Science: With reflections on fairness and data monetization
 
-If you are reading this post, chances are, you would have encountered, at least once, the phrase "causal inference" or "causal research" in the contemporary literature. Causal research is a very common technique in domains such as economics and drug discovery, where it is extremely crucial to correctly estimate the effect of a particular intervention on the outcome. However, in the world of Machine Learning and Artifical Intelligence models, since our focus is more on improving the predictive accuracy of a model rather than understanding the interplay between input variables and the outcome, causal inference is not frequently applied. 
+If you are reading this post, chances are, you would have encountered, at least once, the phrase "causal inference" or "causal research" in the contemporary literature. 
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+Causal research is a very common technique in domains such as economics and drug discovery, where it is extremely crucial to correctly estimate the effect of a particular intervention on the outcome. However, in the world of Machine Learning and Artifical Intelligence models, since our focus is more on improving the predictive accuracy of a model rather than understanding the interplay between input variables and the outcome, causal inference is not frequently applied. 
 
 Although it is un-common to find an exhaustive causal inference performed for the problems which are solved by Machine Learning models, a few techniques which can explain the contribution of each input variable to the outcome, like shapley values, have become popular now a days. But if we are not aware of the causal structure of the underlying data, although we may estimate the association between variable of interest and the outcome correctly, by failing to understand the causal relationship, we may still be at a huge disadvantage.
 
