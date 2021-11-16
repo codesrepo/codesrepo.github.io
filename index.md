@@ -1,10 +1,13 @@
 ## Causal research in Data Science: With reflections on fairness and data monetization
 
-If you are reading this post, chances are, you would have encountered, at least once, the phrase "causal inference" or "causal research" in the contemporary literature. 
+If you are reading this post, chances are, you would have encountered, at least once, the phrase "causal inference" or "causal research" in the contemporary literature. Althouh this phrase may seem advanced, human beings learn to survive using the causal inference. Like we have learned over a period of time that: if someone is bitten by a snake chances of survival is very low. Low rainfall is likely to cause lower agricultural yield and will result in inflation of the food prices, when there is a positive news stock market is likely to surge. An educated individual has a high chances of performing well at job. In summary, we have learned relationships like poison causes death, low rainfall causes rise in food price, positive news impacts stock market positively, educaation is necessary for better job performance etc. However, there can be certain cases when it may appear that there is am association between two phenomenon but it may not be due to a causal relationship. For example, <think of some real life non-causal association, >
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+Causal inference allows us to answer cause and effect questions like, What is the effect of maternal smoking on infant mortality ? 
 
-Causal research is a very common technique in domains such as economics and drug discovery, where it is extremely crucial to correctly estimate the effect of a particular intervention on the outcome. However, in the world of Machine Learning and Artifical Intelligence models, since our focus is more on improving the predictive accuracy of a model rather than understanding the interplay between input variables and the outcome, causal inference is not frequently applied. 
+
+
+
+Causal research is a very common technique in domains such as Economics, Health and Social sciences, where it is extremely crucial to correctly estimate the effect of a particular intervention on the outcome. However, in the world of Machine Learning and Artifical Intelligence models, since our focus is more on improving the predictive accuracy of a model rather than understanding the interplay between input variables and the outcome, causal inference is not frequently applied. 
 
 Although it is un-common to find an exhaustive causal inference performed for the problems which are solved by Machine Learning models, a few techniques which can explain the contribution of each input variable to the outcome, like shapley values, have become popular now a days. But if we are not aware of the causal structure of the underlying data, although we may estimate the association between variable of interest and the outcome correctly, by failing to understand the causal relationship, we may still be at a huge disadvantage.
 
