@@ -24,8 +24,8 @@ Causal research will become more and more important in the coming few years and 
 Explain Simpson's paradox
 Discuss causal models through DAGs
 
-Role of causal analysis in ML fairness
-Causal analysis for identifying the most important data attributes
+Role of causal analysis in ML fairness - With example
+Causal analysis for identifying the most important data attributes - With example
 
 
 
