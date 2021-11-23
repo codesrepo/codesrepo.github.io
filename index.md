@@ -21,11 +21,10 @@ Causal research will become more and more important in the coming few years and 
 2. It will enable firms device efficient strategies, internet firms are already using causal inference for better understanding the reason behind a phenomenon, like Google uses causal inderence to determine why a page is ranked the way it is
 3. More and more researchers are getting interested in this domain
 
-Explain Simpson's paradox
-Discuss causal models through DAGs
-
-Role of causal analysis in ML fairness - With example
-Causal analysis for identifying the most important data attributes - With example
+- Explain Simpson's paradox
+- Discuss causal models through DAGs
+- Role of causal analysis in ML fairness - With example
+- Causal analysis for identifying the most important data attributes - With example
 
 
 
