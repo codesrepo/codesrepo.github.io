@@ -1,6 +1,8 @@
-## Causal research in Data Science: With reflections on fairness and data monetization
+## Causal research in Data Science: With reflections on ML fairness and data monetization
 
-If you are reading this post, chances are, you have already encountered at least once, the phrase "causal inference" or "causal research" in the contemporary literature. Althouh this phrase may seem advanced, human beings learn to survive using the causal inference. Like we have learned over a period of time that: if someone is bitten by a snake chances of survival is very low, low rainfall is likely to cause lower agricultural yield and will result in inflation of the food prices, when there is a positive news stock market is likely to surge, an educational level is positively correlated to job performance. In summary, we have learned relationships like poison causes death, low rainfall causes rise in food price, positive news impacts stock market positively, education is necessary for better job performance etc. However, there can be certain cases when it may appear that there is an association between two phenomenon but it may not be due to a causal relationship. For example, if we study any data we will find correlation between yellow fingers and lung cancer, but yellow finger is not a cause of lung cancer.
+If you are reading this post, chances are, you have already encountered at least once, the phrase "causal inference" or "causal research" in the contemporary literature. Althouh this phrase may seem new, human beings learn to survive using the causal inference. Like we have learned over a period of time that: if someone is bitten by a snake chances of survival is very low, low rainfall is likely to cause lower agricultural yield and will result in inflation of the food prices, when there is a positive news stock market is likely to surge, an better educational  is positively correlated to high salary. In summary, we have learned relationships like poison causes death, low rainfall causes rise in food price, positive news impacts stock market positively, education is necessary for a better job performance etc. 
+
+Causal analysis helps us understand "how"and "why" causes influence their effect. However, there can be certain cases when it may appear that two phenomenon are related, but it may not be due to a causal relationship. For example, if we study any data we will find correlation between yellow fingers and lung cancer, but yellow finger is not a cause of lung cancer.
 In the subsequent sections, i'll explain this phenomenon through examples when there is strong association without causation. Which leads us to a famous quote "correlation is not causation" which all of us hear during the first few months of our career from wise looking men.
 
 
@@ -11,13 +13,22 @@ Although it is un-common to find an exhaustive causal inference performed for th
 
 
 There are two main reasons why causal study is not common while solving ML problems:
-1. With large number of variables, it can be a daunting task, when the underlying causal structure is not well understood
+1. With large number of variables, it can be a daunting task, when the underlying data generation process is not well understood
 2. We are most interested in the predictive power of a variable rather than its causal relationship with the outcome
 
 Causal research will become more and more important in the coming few years and is likely to become mainstream due to these reasons:
 1. As data is taking the centerstage, firms interested in monetizing their data would like to understand the causal relationship between variables and outcomes of interest to correctly value their data assets, similarly institutions investing in the data would pay for variables that are the cause of the outcome
 2. It will enable firms device efficient strategies, internet firms are already using causal inference for better understanding the reason behind a phenomenon, like Google uses causal inderence to determine why a page is ranked the way it is
 3. More and more researchers are getting interested in this domain
+
+Explain Simpson's paradox
+Discuss causal models through DAGs
+
+Role of causal analysis in ML fairness
+Causal analysis for identifying the most important data attributes
+
+
+
 
 
 
