@@ -5,7 +5,7 @@ If you are reading this post, chances are, you have already encountered the phra
 Causal analysis helps us understand, "how"and "why", causes influence their effect. However, there can be certain cases when it may appear that the two phenomenon are related, but it may not be due to a causal relationship. For example, if we study any data we will find a correlation between yellow fingers and lung cancer, but yellow finger is not a cause of lung cancer.
 In the subsequent sections, we will discuss this phenomenon through examples, when there is a strong association without causation. Which leads us to the famous quote "correlation is not causation" which all of us hear during the first few months of our career from wise looking men.
 
-
+### Causal research: An overview
 Causal research is a very common technique in domains such as Economics, Health and Social sciences, where it is extremely crucial to correctly estimate the effect of a particular intervention on the outcome. However, in the world of Machine Learning and Artifical Intelligence, since our focus is more on improving the predictive accuracy of a model rather than understanding the interplay between the variables (among input variables and the outcome), application of causal inference is still in its infancy. 
 Although it is un-common to find an exhaustive causal inference performed for common Machine Learning problems, a few techniques that can explain the contribution of each input variable and the outcome, like shapley values, have become popular now a days. But if we are not aware of the causal structure of the underlying data, although we may estimate the association between variable of interest and the outcome correctly, by failing to understand the causal relationships, we may still be at a huge disadvantage.
 
@@ -21,7 +21,7 @@ Causal research will become more and more important in the coming years and is l
 3. Causal inference is an important technique to identify and measure bias in a ML model which makes that model unfair, once the source of bias is identified appropriate corrective measures can be take to mitigate those biases
 4. More and more researchers are getting interested in this domain
 
-### Importance of causal research:
+### Importance of causal research: Motivation
 To understand the situations in which it becomes extremely important to understand the right causal relationship, we will look at a simple example. 
 
 __Example-1:__
