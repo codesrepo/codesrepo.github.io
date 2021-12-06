@@ -23,7 +23,7 @@ Causal research will become more and more important in the coming years and is l
 
 __Importance of causal research:__
 To understand the situations in which it becomes extremely important to understand the right causal relationship, we will look at a simple example. 
-
+```
 __Example-1:__
 The table given below represents the outcome of the test of effectiveness of a medicine on a population, participants in the test and control groups and their recovery status is shown below:
 
@@ -43,21 +43,24 @@ _Control group:_
 | Female  | 500  |  224 | 45%  |
 |Overall   | 600  | 240  | 40%  |
 
+```
+
 It can be observed that:
-1. We observe that the overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate of the test group
+1. The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group
 2. Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group
+
 
 Based on the above findings, what shall we conclude about the effectiveness of the medicine ? 
 We have encountered a _paradox_, although recovery rate is better within the test sub-groups,overall, recovery rate of the test group is lower than that of the control group. This paradox was first discovered by Simpson, hence it is called _Simpson's paradox_.
 
-We will solve this mystery after learning basics of causal inference. We will also learn to graphically represent the association between variables using the causal diagrams or using _directed acyclic graphs_ (__DAG's__).
+We will solve this mystery after learning basics of causal inference. We will also learn about structural causal models which provides us with the capability to put down the assumptions about causal relationship behind a dataset. We will primarly deal with SCM's which can be represented using _directed acyclic graphs_ (__DAG's__). These tools will enable us to represent our understanding of the relationships present in a dataset as well as determine cause and effects present in the data.
 
-
+'''
 - Explain Simpson's paradox
 - Discuss causal models through DAGs
 - Role of causal analysis in ML fairness - With example
 - Causal analysis for identifying the most important data attributes - With example
-
+'''
 
 
 
