@@ -21,7 +21,7 @@ Causal research will become more and more important in the coming years and is l
 3. Causal inference is an important technique to identify and measure bias in a ML model which makes that model unfair, once the source of bias is identified appropriate corrective measures can be take to mitigate those biases
 4. More and more researchers are getting interested in this domain
 
-__Importance of causal research:__
+### Importance of causal research:
 To understand the situations in which it becomes extremely important to understand the right causal relationship, we will look at a simple example. 
 
 __Example-1:__
@@ -45,9 +45,8 @@ _Control group:_
 
 
 It can be observed that:
-1. <span style="color:blue">The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group</span>
-2. <span style="color:blue">Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group</span>
-
+1. The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group
+2. Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group
 
 Based on the above findings, what shall we conclude about the effectiveness of the medicine ? 
 We have encountered a _paradox_, although recovery rate is better within the test sub-groups,overall, recovery rate of the test group is lower than that of the control group. This paradox was first discovered by Simpson, hence it is called _Simpson's paradox_.
