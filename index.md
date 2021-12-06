@@ -21,17 +21,36 @@ Causal research will become more and more important in the coming years and is l
 3. Causal inference is an important technique to identify and measure bias in a ML model which makes that model unfair, once the source of bias is identified appropriate corrective measures can be take to mitigate those biases
 4. More and more researchers are getting interested in this domain
 
-Importance of causal research:
+__Importance of causal research:__
 To understand the situations in which it becomes extremely important to understand the right causal relationship, we will look at a simple example. 
-Consider the result of a medicine which has been tested on a population, participants in the test and control groups and their recovery status is shown below:
 
-Treatment group:
+__Example-1:__
+The table given below represents the outcome of the test of effectiveness of a medicine on a population, participants in the test and control groups and their recovery status is shown below:
+
+_Treatment group:_
 
 |   | Treated  | Recovered with treatment  | Recovery rate  |
 |---|---|---|---|
 | Male  |100   | 20  |  20% |
 | Female  | 100  |  50 | 50%  |
 |Overall   | 200  | 70  | 35%  |
+
+_Control group:_
+
+|   | Treated  | Recovered with treatment  | Recovery rate  |
+|---|---|---|---|
+| Male  |100   | 16  |  16% |
+| Female  | 500  |  224 | 45%  |
+|Overall   | 600  | 240  | 40%  |
+
+It can be observed that:
+1. We observe that the overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate of the test group
+2. Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group
+
+Based on the above findings, what shall we conclude about the effectiveness of the medicine ? 
+We have encountered a _paradox_, although recovery rate is better within the test sub-groups,overall, recovery rate of the test group is lower than that of the control group. This paradox was first discovered by Simpson, hence it is called _Simpson's paradox_.
+
+We will solve this mystery after learning basics of causal inference. We will also learn to graphically represent the association between variables using the causal diagrams or using _directed acyclic graphs_ (__DAG's__).
 
 
 - Explain Simpson's paradox
