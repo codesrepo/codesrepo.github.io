@@ -43,13 +43,12 @@ _Control group:_
 | Female  | 500  |  224 | 45%  |
 |Overall   | 600  | 240  | 40%  |
 
-```
 <span style="color:blue">
 It can be observed that:
 1. The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group
 2. Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group
 </span>
-```
+
 
 Based on the above findings, what shall we conclude about the effectiveness of the medicine ? 
 We have encountered a _paradox_, although recovery rate is better within the test sub-groups,overall, recovery rate of the test group is lower than that of the control group. This paradox was first discovered by Simpson, hence it is called _Simpson's paradox_.
@@ -67,7 +66,7 @@ We will solve this mystery after learning basics of causal inference. We will al
 
 
 
-
+**My Bold Text, in red color.**{: style="color: red; opacity: 0.80;" }
 
 
 
