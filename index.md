@@ -29,7 +29,7 @@ The table given below represents the outcome of the test of effectiveness of a m
 
 _Treatment group:_
 
-|   | Treated  | Recovered with treatment  | Recovery rate  |
+|   | Treatment group  | Recovered with treatment  | Recovery rate  |
 |---|---|---|---|
 | Male  |100   | 20  |  20% |
 | Female  | 100  |  50 | 50%  |
@@ -37,7 +37,7 @@ _Treatment group:_
 
 _Control group:_
 
-|   | Treated  | Recovered with treatment  | Recovery rate  |
+|   | Control group  | Recovered without treatment  | Recovery rate  |
 |---|---|---|---|
 | Male  |100   | 16  |  16% |
 | Female  | 500  |  224 | 45%  |
