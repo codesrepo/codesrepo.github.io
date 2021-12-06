@@ -45,8 +45,8 @@ _Control group:_
 
 
 It can be observed that:
-1. The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group
-2. Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group
+1. <span style="color:blue">The overall recovery rate is __40%__ in the control group which is higher than __35%__ recovery rate in the test group</span>
+2. <span style="color:blue">Within the sub groups - namely __males__ and __females__, recovery rate of the test group is higher than the control group</span>
 
 
 Based on the above findings, what shall we conclude about the effectiveness of the medicine ? 
