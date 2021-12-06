@@ -53,6 +53,7 @@ We have encountered a _paradox_, although recovery rate is better within the tes
 
 We will solve this mystery after learning basics of causal inference. We will also learn about structural causal models which provides us with the capability to put down the assumptions about causal relationship behind a dataset. We will primarly deal with SCM's which can be represented using _directed acyclic graphs_ (__DAG's__). These tools will enable us to represent our understanding of the relationships present in a dataset as well as determine cause and effects present in the data.
 
+### Representing causal assumptions: DAG's
 ```
 - Explain Simpson's paradox
 - Discuss causal models through DAGs
