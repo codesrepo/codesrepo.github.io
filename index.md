@@ -56,12 +56,13 @@ We will solve this mystery after learning basics of causal inference. We will al
 If a phenomenon "A" causes an event or another phenomenon "B" then we say that A causes B. This is represented by diagram shown in figure-1.
 Let us revisit the cause and effect relationships we mentioned at the begning and identify "A"and "B":
 
-1. If someone is bitten by a snake chances of survival is very low - Here, A (snake bite) causes B (death)
-2. Low rainfall is likely to cause lower agricultural yield resulting in the inflation of the food prices - A (low rainfall) causes B (rise in food prices)
-3. When there is a positive news stock market is likely to surge  - A(poistive news) causes B(rise in stock prices)
-4. A better education is positively correlated with the salary - A (better education) causes B(rise in salary)
+1. If someone is bitten by a snake chances of survival is very low - Here, __A__ (_snake bite_) causes __B__ (_death_)
+2. Low rainfall is likely to cause lower agricultural yield resulting in the inflation of the food prices - __A__ (_low rainfall_) causes __B__ (_rise in food prices_)
+3. When there is a positive news stock market is likely to surge  - __A__ (_poistive news_) causes __B__ (_rise in stock prices_)
+4. A better education is positively correlated with the salary - __A__ (_better education_) causes __B__ (_results in a higher salary_)
 
-An inquisitive reader will be quick to point out that in all the cases mentioned above, there are multiple intermediate stages which are trigerred before the final effect is realized. For example, it is not the snake-bite itself which causes death, but in fact the poison released by snake bite causes blod clot which may result in cardiac arrest that  results in death. The beauty of causal inference is that we can just focus on cause and effect of interest without bothering about the subsequent intermediate stages. The cause and effect of interest are usually measured variables, although the strength of association will vary depending upon whether there is a common unmeasured/measured cause. We will study this scenario when there is a common cause of both A (cause) and B (effect) of interest.
+An inquisitive reader will be quick to point out that in all the cases mentioned above, there are multiple intermediate stages which are trigerred before the final effect is realized. 
+For example, it is not the snake-bite itself which causes death, but in fact the poison released by snake bite causes blo0d clot which may result in cardiac arrest that  results in death. The beauty of causal inference is that we can just focus on cause and effect of interest without bothering about the subsequent intermediate stages. The cause and effect of interest are usually measured variables, although the strength of association varies depending upon whether there is a common unmeasured/measured cause. We will study this scenario when there is a common cause of both A (cause) and B (effect) of interest.
 
 
 ```
